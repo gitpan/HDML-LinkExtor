@@ -5,7 +5,7 @@ use vars qw($VERSION @ISA);
 require HTML::Parser;
 require HTML::LinkExtor;
 @ISA = qw(HTML::Parser HTML::LinkExtor);
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 my %hdml_tagset_linkelements = (
     'a'      => ['dest'],

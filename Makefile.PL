@@ -8,5 +8,6 @@ WriteMakefile(
     'PREREQ_PM' => {
 	HTML::LinkExtor => 0,
 	HTML::Tagset => 0,
+	URI => 0,
     }
 );
